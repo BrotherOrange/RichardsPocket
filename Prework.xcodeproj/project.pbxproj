@@ -49,6 +49,7 @@
 		81795BDB288E123E00D0C5C5 /* PreworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81795BDF288E123E00D0C5C5 /* PreworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreworkUITests.swift; sourceTree = "<group>"; };
 		81795BE1288E123E00D0C5C5 /* PreworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81795BEE288E1ED800D0C5C5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		81795BB2288E123A00D0C5C5 = {
 			isa = PBXGroup;
 			children = (
+				81795BEE288E1ED800D0C5C5 /* README.md */,
 				81795BBD288E123A00D0C5C5 /* Prework */,
 				81795BD4288E123E00D0C5C5 /* PreworkTests */,
 				81795BDE288E123E00D0C5C5 /* PreworkUITests */,
@@ -190,6 +192,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					"Bill Amount Label",
+				);
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
