@@ -50,7 +50,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="billAmountTextField:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="rEf-Nh-32I"/>
+                                    <action selector="calculateWhileEditing:" destination="BYZ-38-t0r" eventType="editingChanged" id="oO7-IV-BRB"/>
                                 </connections>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="DMg-ii-XCl" userLabel="Tip Rate">

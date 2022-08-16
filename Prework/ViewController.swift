@@ -23,15 +23,22 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func calculateWhileEditing(_ sender: Any) {
+        calculate()
+    }
     
     @IBAction func calculateTip(_ sender: Any) {
+        calculate()
+    }
+    
+    func calculate() {
         // Get bill amount from test input
         let bill = Double(billAmountTextField.text!) ?? 0
         
         // Get total Tip by multiplying tip * tipPercentage
         let tipPercentages = [0.15, 0.18, 0.2]
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
-        let total = bill * tip
+        let total = bill + tip
         
         // Update Tip Amount Label
         tipAmountLabel.text = String(format: "$%.2f", tip)
